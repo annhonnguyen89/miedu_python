@@ -73,6 +73,7 @@ def avg_humidity(row):
     return np.mean(lst)
 
 def long_lat():
+    # how are you
     df_long_lat = pd.DataFrame({'province':["Nhatrang","Danang","Hanoi","Hochiminh"], \
                                 'lat':[12.235192,16.06778,20.984068,10.762622], 'lon':[109.193554,108.22083,105.862511,106.660172]})
     return df_long_lat
